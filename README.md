@@ -20,13 +20,12 @@ like Stable Diffusion.
 
 ## Installation
 
-The easiest way to use the application is to download the latest release from
-the [releases page](https://www.github.com/jhc13/taggui/releases).
-Choose the appropriate file for your operating system, extract it wherever you
-want, and run the executable file inside.
+Python 3.10 or 3.11 should work.
+
 You may have to install [7-Zip](https://www.7-zip.org/download.html) to
 extract the files if you don't have it on your system.
 
+- Windows users: Manually by cloning this repository and run install.bat followed by start.bat to run it.
 - macOS users: There is no macOS release because it requires a device running
   the OS, and I do not have one. You can still install and run the program
   manually (see below).
@@ -35,11 +34,6 @@ extract the files if you don't have it on your system.
   may also have to install `python3.11-dev` or `python3.10-dev` (depending on
   your Python version) if you get an error while trying to use a CogVLM2
   model. (See [this issue](https://github.com/jhc13/taggui/issues/234).)
-
-Alternatively, you can install manually by cloning this repository and
-installing the dependencies in `requirements.txt`.
-Run `taggui/run_gui.py` to start the program.
-Python 3.11 is recommended, but Python 3.10 should also work.
 
 ## Usage
 
