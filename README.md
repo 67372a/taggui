@@ -25,7 +25,7 @@ Python 3.10 or 3.11 should work.
 You may have to install [7-Zip](https://www.7-zip.org/download.html) to
 extract the files if you don't have it on your system.
 
-- Windows users: Manually by cloning this repository and run install.bat followed by start.bat to run it.
+- Windows users: By manually by cloning this repository, then running install.bat, after which you can start taggui via start.bat.
 - macOS users: There is no macOS release because it requires a device running
   the OS, and I do not have one. You can still install and run the program
   manually (see below).
