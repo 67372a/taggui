@@ -26,6 +26,7 @@ MODELS = [
     'microsoft/Florence-2-base-ft',
     'microsoft/Florence-2-base',
     'MiaoshouAI/Florence-2-base-PromptGen',
+    'MiaoshouAI/Florence-2-base-PromptGen-v1.5',
     'thwri/CogFlorence-2.2-Large',
     'thwri/CogFlorence-2.1-Large',
     'thwri/CogFlorence-2-Large-Freeze',
