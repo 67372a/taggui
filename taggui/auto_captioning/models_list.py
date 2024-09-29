@@ -41,7 +41,7 @@ MODELS = [
     'SmilingWolf/wd-vit-large-tagger-v3',
     'SmilingWolf/wd-swinv2-tagger-v3',
     'SmilingWolf/wd-convnext-tagger-v3',
-    'SmilingWolf/wd-eva02-large-tagger-v3'
+    'SmilingWolf/wd-eva02-large-tagger-v3',
     'SmilingWolf/wd-vit-tagger-v3',
     'SmilingWolf/wd-v1-4-moat-tagger-v2',
     'SmilingWolf/wd-v1-4-swinv2-tagger-v2',
