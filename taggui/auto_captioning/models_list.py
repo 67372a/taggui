@@ -40,6 +40,7 @@ MODELS = [
     'llava-hf/llava-v1.6-vicuna-7b-hf',
     'llava-hf/llava-v1.6-vicuna-13b-hf',
     'llava-hf/llava-v1.6-34b-hf',
+    'pixai-labs/pixai-tagger-v0.9',
     'xtuner/llava-llama-3-8b-v1_1-transformers',
     'vikhyatk/moondream2',
     'vikhyatk/moondream1',
@@ -101,7 +102,7 @@ def get_model_class(model_id: str) -> type[AutoCaptioningModel]:
         return Moondream2
     if 'phi-3' in lowercase_model_id:
         return Phi3Vision
-    if 'wd' in lowercase_model_id and 'tagger' in lowercase_model_id:
+    if ('wd' in lowercase_model_id or 'pixai' in lowercase_model_id) and 'tagger' in lowercase_model_id:
         return WdTagger
     if 'xcomposer2' in lowercase_model_id:
         if '4khd' in lowercase_model_id:
